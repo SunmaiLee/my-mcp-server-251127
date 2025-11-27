@@ -29,10 +29,7 @@ export default function createServer({ config }: { config: z.infer<typeof config
     // Create server instance
     const server = new McpServer({
         name: 'My MCP Server',
-        version: '1.0.0',
-        capabilities: {
-            tools: {}
-        }
+        version: '1.0.0'
     })
 
     // greeting 도구 등록
